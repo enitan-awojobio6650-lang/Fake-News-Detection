@@ -85,8 +85,7 @@ with zipfile.ZipFile(zip_path,'r') as zip_ref:
 print('Extracted successfully')
 
 import os
-
- for root, dirs, files in os.walk('/content/drive/MyDrive/'):
+for root, dirs, files in os.walk('/content/drive/MyDrive/'):
      for file in files:
         if '.csv' in file.lower():
             print(os.path.join(root,file))
