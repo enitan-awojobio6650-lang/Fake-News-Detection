@@ -72,8 +72,8 @@ About the Dataset
 The dataset used in this project is the WELFake dataset (Word Embedding over Linguistic Features for Fake News Detection), published by Verma et al. (2021). It was retrieved from Kaggle at:
 https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification"""
 
-from google.colab import drive
-drive.mount('/content/drive')
+#from google.colab import drive
+#drive.mount('/content/drive')
 
 import zipfile
 
