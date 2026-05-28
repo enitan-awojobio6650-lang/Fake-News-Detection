@@ -4,6 +4,7 @@ import re
 import nltk
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
+import os
 
 # Download NLTK data
 nltk.download('stopwords', quiet=True)
